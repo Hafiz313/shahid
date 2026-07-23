@@ -52,14 +52,3 @@ export function clamp(value: number, min: number, max: number): number {
 export function lerp(start: number, end: number, factor: number): number {
   return start + (end - start) * factor;
 }
-
-/**
- * Helper to ensure static asset paths include GitHub Pages basePath (/shahid)
- */
-export function getAssetPath(path: string): string {
-  if (!path) return "";
-  if (path.startsWith("http://") || path.startsWith("https://")) return path;
-  const basePath = "/shahid";
-  const cleanPath = path.startsWith("/") ? path : `/${path}`;
-  return cleanPath.startsWith(basePath) ? cleanPath : `${basePath}${cleanPath}`;
-}

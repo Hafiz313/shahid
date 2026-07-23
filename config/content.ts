@@ -21,7 +21,7 @@ export const personal = {
   // TODO: Add your GitHub profile URL below
   github: "https://github.com/muhammad-shahid",
   location: "Lahore, Pakistan",
-  profileImage: "/images/profile.png",
+  profileImage: "/images/profile.png?v=3",
   // TODO: Place your PDF resume in public/ directory and update this path if needed
   resumeUrl: "/Talha_resume.pdf",
 };

@@ -11,7 +11,7 @@ import {
   staggerContainer,
 } from "@/lib/hooks/useAnimationVariants";
 import Button from "@/components/ui/Button";
-import { scrollToSection, getAssetPath } from "@/lib/utils";
+import { scrollToSection } from "@/lib/utils";
 
 const ParticleField = dynamic(() => import("@/components/3d/ParticleField"), {
   ssr: false,
@@ -155,7 +155,7 @@ export default function Hero() {
               {/* Profile Image */}
               <div className="relative w-72 h-72 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-2 border-primary/20 shadow-2xl bg-[#e5e7eb]/10">
                 <Image
-                  src={getAssetPath(personal.profileImage)}
+                  src={personal.profileImage}
                   alt={`${personal.name} profile photo`}
                   fill
                   priority
