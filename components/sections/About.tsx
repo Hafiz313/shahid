@@ -8,6 +8,7 @@ import {
   staggerContainer,
 } from "@/lib/hooks/useAnimationVariants";
 import SectionHeading from "@/components/ui/SectionHeading";
+import { getAssetPath } from "@/lib/utils";
 
 export default function About() {
   const { ref, isInView } = useInView({ threshold: 0.1 });
@@ -60,7 +61,7 @@ export default function About() {
         {/* Resume download */}
         <motion.div variants={fadeUp} className="text-center">
           <a
-            href={personal.resumeUrl}
+            href={getAssetPath(personal.resumeUrl)}
             download="Talha_resume.pdf"
             className="inline-flex items-center gap-3 px-8 py-4 rounded-xl bg-primary text-white font-medium text-lg
                        hover:shadow-[0_0_30px_rgba(59,130,246,0.3)] transition-all duration-300

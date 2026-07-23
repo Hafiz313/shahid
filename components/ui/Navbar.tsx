@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { navLinks, personal } from "@/config/content";
-import { scrollToSection } from "@/lib/utils";
+import { scrollToSection, getAssetPath } from "@/lib/utils";
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -82,7 +82,7 @@ export default function Navbar() {
 
           {/* Resume Download Button */}
           <a
-            href={personal.resumeUrl}
+            href={getAssetPath(personal.resumeUrl)}
             download="Talha_resume.pdf"
             className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-lg
                        bg-primary/10 text-primary border border-primary/30
@@ -159,7 +159,7 @@ export default function Navbar() {
 
               {/* Mobile Resume Download */}
               <a
-                href={personal.resumeUrl}
+                href={getAssetPath(personal.resumeUrl)}
                 download="Talha_resume.pdf"
                 className="flex items-center gap-2 text-base font-medium py-2 text-primary hover:text-primaryGlow transition-colors cursor-pointer"
                 id="mobile-download-resume"
