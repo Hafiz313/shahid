@@ -363,10 +363,23 @@ export interface Experience {
 
 export const experiences: Experience[] = [
   {
+    id: "smart-computing",
+    company: "Smart Computing Pvt Ltd",
+    role: "Mobile Application Developer",
+    duration: "06/2025 – Present",
+    type: "fulltime",
+    accomplishments: [
+      "Leading Super App development across Android, iOS, and Windows platforms using Flutter & cross-platform technologies",
+      "Integrated Matrix Protocol with End-to-End Encryption (E2EE) and WebRTC for secure real-time communication",
+      "Built FinTech infrastructure incorporating PayCrypto, Bridge, and digital crypto wallet functionality",
+      "Architected modular application design, implemented push notifications, and enforced rigorous security protocols",
+    ],
+  },
+  {
     id: "brain-stormers",
     company: "THE BRAIN STORMERS (AMERICAN LYCEUM)",
     role: "Senior Application Developer & Team Lead",
-    duration: "01/04/2021 – Present",
+    duration: "01/04/2021 – 05/2025",
     type: "fulltime",
     accomplishments: [
       "Lead mobile application development team, designing and shipping scalable Flutter & Dart apps",
