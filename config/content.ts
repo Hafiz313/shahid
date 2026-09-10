@@ -2,12 +2,14 @@
 // Centralized Content — All text sourced here
 // ============================================
 
+const basePath = "/shahid";
+
 export const siteConfig = {
   title: "Muhammad Shahid — Senior Application Developer",
   description:
     "Senior Mobile Application Developer & Team Lead with 6+ years of experience in Android (Java, Kotlin) and 4+ years in Flutter (Dart). Building high-performance cross-platform apps.",
   url: "https://mshahid.dev", // TODO: Update with your domain URL
-  ogImage: "/images/profile.png",
+  ogImage: `${basePath}/images/profile.png`,
 };
 
 export const personal = {
@@ -21,9 +23,9 @@ export const personal = {
   // TODO: Add your GitHub profile URL below
   github: "https://github.com/muhammad-shahid",
   location: "Lahore, Pakistan",
-  profileImage: "/images/profile.png?v=3",
+  profileImage: `${basePath}/images/profile.png?v=3`,
   // TODO: Place your PDF resume in public/ directory and update this path if needed
-  resumeUrl: "/Talha_resume.pdf",
+  resumeUrl: `${basePath}/Talha_resume.pdf`,
 };
 
 export const hero = {
