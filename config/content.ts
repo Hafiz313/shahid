@@ -18,10 +18,10 @@ export const personal = {
   role: "Senior Application Developer",
   email: "m.shahid3313@gmail.com",
   phone: "(+92) 03214180710",
-  // TODO: Add your LinkedIn profile URL below
-  linkedin: "https://linkedin.com/in/muhammad-shahid",
-  // TODO: Add your GitHub profile URL below
-  github: "https://github.com/muhammad-shahid",
+  // LinkedIn profile URL
+  linkedin: "https://www.linkedin.com/in/m-shahid-a55535166/",
+  // GitHub profile URL
+  github: "https://github.com/Hafiz313",
   location: "Lahore, Pakistan",
   profileImage: `${basePath}/images/profile.png?v=3`,
   // TODO: Place your PDF resume in public/ directory and update this path if needed

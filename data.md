@@ -2,8 +2,8 @@ MUHAMMAD TALHA ANJUM
 Software Engineer 
 Email: mtalhadev11@gmail.com 
 Phone: +92-309-6627172 
-LinkedIn: https://www.linkedin.com/in/muhammad-talha-anjum-4b97b6238/ 
-GitHub: https://github.com/Muhammadtalha54 
+LinkedIn: https://www.linkedin.com/in/m-shahid-a55535166/ 
+GitHub: https://github.com/Hafiz313 
 ======================================== 
 PROFESSIONAL SUMMARY 
 ======================================== 
